@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.axuan.vivoe2eeprover" android:versionCode="8" android:versionName="1.7">
+ <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/>
+ <application android:label="vivo E2EE Prover" android:allowBackup="false" android:hasCode="true">
+  <meta-data android:name="xposedmodule" android:value="true"/>
+    <meta-data android:name="xposedauthor" android:value="Axuan"/>
+  <meta-data android:name="xposeddescription" android:value="隐藏 VMS 四项风险输入，并兼容云空间过长 UFS 标识。"/>
+  <meta-data android:name="xposedminversion" android:value="82"/>
+ </application>
+</manifest>
